@@ -1,0 +1,118 @@
+html{
+    width: 100%;
+    height: 100%;
+    font-size: 62.5%;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+header{
+    background: url(https://images.pexels.com/photos/6589610/pexels-photo-6589610.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'lobster', sans-serif;
+    font-size: 12rem;
+    margin: 0;
+    position: relative;
+    top: 30rem;
+    letter-spacing: 5px;
+    width: 100%;
+}
+
+/*Section*/
+
+.img1{
+    background: url(https://images.pexels.com/photos/3204592/pexels-photo-3204592.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    height: 108rem;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.box{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 92rem;
+    height: 50rem;
+    text-align: center;
+    background: rgba(0,0,0,0.6);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: white;
+    line-height: 1.5rem;
+    font-family: sans-serif;
+    font-weight: 100;
+    padding: 3.5rem;
+}
+
+h2{
+    font-size: 4rem;
+    font-family: 'lobster', sans-serif;
+    line-height: 1.25rem;
+}
+
+.date {
+    font-size: 2rem;
+    opacity: 0.7;
+}
+
+.text{
+    font-size: 1.8rem;
+    letter-spacing: 0.15rem;
+    margin: 0.3rem;
+    padding: 0.7rem;
+    line-height: 3.5rem;
+}
+
+.learn {
+    background: transparent;
+    margin-top: 5rem;
+    color: rgb(48, 47, 47);
+    border: 1px solid rgba(255 , 255, 255, 0.3);
+    padding: 2.5rem;
+    font-weight: 500;
+    width: 25rem;
+    transition: all 0.4s ease-in;
+    font-size: 1.8 rem;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+}
+
+.learn:hover{
+    background: rgb(43, 42, 42,0.3);
+    color:black;
+}
+
+.img2{
+    background: url(https://images.pexels.com/photos/7916195/pexels-photo-7916195.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    height: 108rem;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.img3{
+    background: url(https://images.pexels.com/photos/1635935/pexels-photo-1635935.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    height: 108rem;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
